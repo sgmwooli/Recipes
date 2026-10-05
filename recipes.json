@@ -1,0 +1,134 @@
+[
+  {
+    "id": "0001",
+    "visibility": true,
+    "name": "Chicken Fajitas",
+    "type": "Main",
+    "difficulty": "Easy",
+    "time": 30,
+    "portions": 4,
+    "emoji": "🌯",
+    "ingredients": [
+      "600 g chicken breast",
+      "2 peppers",
+      "1 onion",
+      "Fajita seasoning",
+      "8 tortillas"
+    ],
+    "method": [
+      "Slice chicken and vegetables.",
+      "Cook chicken until browned.",
+      "Add peppers, onion and seasoning.",
+      "Serve in warmed tortillas."
+    ]
+  },
+  {
+    "id": "0002",
+    "visibility": true,
+    "name": "Garlic Bread",
+    "type": "Side",
+    "difficulty": "Easy",
+    "time": 15,
+    "portions": 4,
+    "emoji": "🥖",
+    "ingredients": [
+      "1 baguette",
+      "75 g butter",
+      "2 garlic cloves",
+      "Parsley"
+    ],
+    "method": [
+      "Mix softened butter with crushed garlic and parsley.",
+      "Spread over the bread.",
+      "Bake until golden."
+    ]
+  },
+  {
+    "id": "0003",
+    "visibility": true,
+    "name": "Chocolate Brownies",
+    "type": "Dessert",
+    "difficulty": "Medium",
+    "time": 45,
+    "portions": 12,
+    "emoji": "🍫",
+    "ingredients": [
+      "200 g dark chocolate",
+      "175 g butter",
+      "250 g sugar",
+      "3 eggs",
+      "100 g flour"
+    ],
+    "method": [
+      "Melt chocolate and butter.",
+      "Whisk in sugar and eggs.",
+      "Fold in flour.",
+      "Bake until just set."
+    ]
+  },
+  {
+    "id": "0004",
+    "visibility": true,
+    "name": "Tomato Soup",
+    "type": "Starter",
+    "difficulty": "Easy",
+    "time": 30,
+    "portions": 4,
+    "emoji": "🍅",
+    "ingredients": [
+      "800 g tomatoes",
+      "1 onion",
+      "2 garlic cloves",
+      "500 ml stock"
+    ],
+    "method": [
+      "Soften onion and garlic.",
+      "Add tomatoes and stock.",
+      "Simmer for 20 minutes.",
+      "Blend until smooth."
+    ]
+  },
+  {
+    "id": "0005",
+    "visibility": true,
+    "name": "Tropical Smoothie",
+    "type": "Drink",
+    "difficulty": "Easy",
+    "time": 5,
+    "portions": 2,
+    "emoji": "🥭",
+    "ingredients": [
+      "1 mango",
+      "1 banana",
+      "150 g pineapple",
+      "250 ml fruit juice",
+      "Ice"
+    ],
+    "method": [
+      "Add everything to a blender.",
+      "Blend until smooth.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "0006",
+    "visibility": true,
+    "name": "Pancakes",
+    "type": "Breakfast",
+    "difficulty": "Easy",
+    "time": 20,
+    "portions": 4,
+    "emoji": "🥞",
+    "ingredients": [
+      "125 g flour",
+      "1 egg",
+      "300 ml milk",
+      "Butter"
+    ],
+    "method": [
+      "Whisk flour, egg and milk.",
+      "Heat a lightly buttered pan.",
+      "Cook pancakes on both sides."
+    ]
+  }
+]
