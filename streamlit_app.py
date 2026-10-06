@@ -26,7 +26,7 @@ DATA_FILE = Path(__file__).parent / "recipes.json"
 # 3. Add ADMIN_PASSWORD to .streamlit/secrets.toml locally, or
 #    to the "Secrets" section of Streamlit Community Cloud.
 # ============================================================
-ADMIN_PASSWORD = "Admin123"
+ADMIN_PASSWORD = st.secrets["ADMIN_PASSWORD"]
 
 
 # ============================================================
