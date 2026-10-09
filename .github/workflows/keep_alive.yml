@@ -1,0 +1,28 @@
+name: Keep Streamlit App Alive
+
+on:
+  schedule:
+    - cron: "3 */8 * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ping Streamlit app
+        run: |
+          for i in 1 2 3
+          do
+            echo "Attempt $i"
+            if curl -L --max-time 60 --fail \
+              https://recipes-1.streamlit.app/ \
+              -o /dev/null; then
+              echo "App responded successfully."
+              exit 0
+            fi
+            sleep 10
+          done
+
+          echo "App did not respond."
+          exit 1
